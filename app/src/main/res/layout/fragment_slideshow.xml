@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#171616"
+    android:fillViewport="true"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/titlel_bg"
+            android:paddingTop="10dp"
+            android:text="Hadiths 1 On Sadka"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toTopOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="620dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/titlel_bg"
+            android:fillViewport="true"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="match_parent"
+                android:layout_height="620dp"
+                android:text="Narrated Talha bin 'Ubaidullah: A man from Najd with unkempt hair came to Allah's Apostle and we heard his loud voice but could not understand what he was saying, till he came near and then we came to know that he was asking about Islam. Allah's Apostle said, You have to offer prayers perfectly five times in a day and night (24 hours). The man asked, Is there any more (praying)? Allah's Apostle replied, No, but if you want to offer the Nawafil prayers (you can). Allah's Apostle further said to him: You have to observe fasts during the month of Ramadan. The man asked, Is there any more fasting? Allah's Apostle replied, No, but if you want to observe the Nawafil fasts (you can.) Then Allah's Apostle further said to him, You have to pay the Zakat (obligatory charity). The man asked, Is there any thing other than the Zakat for me to pay? Allah's Apostle replied, No, unless you want to give alms of your own. And then that man retreated saying, By Allah! I will neither do less nor more than this. Allah's Apostle said, If what he said is true, then he will be successful (i.e. he will be granted Paradise)."
+                android:textAlignment="center"
+                android:textColor="#F1EBEB"
+                android:textSize="18sp" />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/shareicon1"
+            android:text="Share"
+            android:textAlignment="center"
+            android:background="@drawable/titlel_bg"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/titlel_bg"
+            android:paddingTop="10dp"
+            android:text="Hadiths 2 On Sadka"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toTopOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/titlel_bg"
+            android:fillViewport="true"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:text="Narrated Jarir bin Abdullah: I gave the pledge of allegiance to Allah's Apostle for the following: 1. offer prayers perfectly 2. pay the Zakat (obligatory charity) 3. and be sincere and true to every Muslim."
+                android:textAlignment="center"
+                android:textColor="#F1EBEB"
+                android:textSize="24sp" />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/shareicon1"
+            android:text="Share"
+            android:textAlignment="center"
+            android:background="@drawable/titlel_bg"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/titlel_bg"
+            android:paddingTop="10dp"
+            android:text="Hadiths 3 On Sadka"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toTopOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:fillViewport="true"
+            android:background="@drawable/titlel_bg"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="match_parent"
+                android:layout_height="550dp"
+                android:text="Narrated `Uqba: I offered the `Asr prayer behind the Prophet at Medina. When he had finished the prayer with Taslim, he got up hurriedly and went out by crossing the rows of the people to one of the dwellings of his wives. The people got scared at his speed . The Prophet came back and found the people surprised at his haste and said to them, I remembered a piece of gold Lying in my house and I did not like it to divert my attention from Allah's worship, so I have ordered it to be distributed (in charity)."
+                android:textAlignment="center"
+                android:textColor="#F1EBEB"
+                android:textSize="24sp" />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/shareicon1"
+            android:text="Share"
+            android:textAlignment="center"
+            android:background="@drawable/titlel_bg"
+            android:textSize="20sp" />
+
+
+
+    </LinearLayout>
+</ScrollView>

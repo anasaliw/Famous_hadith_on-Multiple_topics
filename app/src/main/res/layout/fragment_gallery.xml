@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090808"
+    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/titlel_bg"
+            android:paddingTop="10dp"
+            android:text="Hadiths 1 On Education"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toTopOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/titlel_bg"
+            android:fillViewport="true"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:text="Narrated Abu Musa Al-Ash`ari: Allah's Apostle said, If a person teaches his slave girl good manners properly, educates her properly, and then manumits and marries her, he will get a double reward. And if a man believes in Jesus and then believes in me, he will get a double reward. And if a slave fears his Lord (i.e. Allah) and obeys his masters, he too will get a double reward."
+                android:textAlignment="center"
+                android:textColor="#F1EBEB"
+                android:textSize="20sp" />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/titlel_bg"
+            android:drawableRight="@drawable/shareicon1"
+            android:text="Share"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/titlel_bg"
+            android:paddingTop="10dp"
+            android:text="Hadiths 2 On Education"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toTopOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/titlel_bg"
+            android:fillViewport="true"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:text="It was narrated from Abu Musa that the Messenger of Allah said: 'Whoever has a slave woman and teaches her good manners and educates her, then sets her free and marries her, will have two rewards. Any man from among the People of the Book who believed in his Prophet and believed in Muhammad will have two rewards. Any slave who does his duty towards Allah and towards his masters will have two rewards.” (Sahih)(one of the narrators) Salih said: “Sha'bi said: 'I have given this (Hadith) to you for little effort on your part. A rider would travel to Al-Madinah for less than this.' ”"
+                android:textAlignment="center"
+                android:textColor="#F1EBEB"
+                android:textSize="22sp" />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/titlel_bg"
+            android:drawableRight="@drawable/shareicon1"
+            android:text="Share"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/titlel_bg"
+            android:paddingTop="10dp"
+            android:text="Hadiths 3 On Sadka"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toTopOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/titlel_bg"
+            android:fillViewport="true"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:text="Narrated Abu Musa: Allah's Apostle said, He who has a slave-girl and educates and treats her nicely and then manumits and marries her, will get a double reward."
+                android:textAlignment="center"
+                android:textColor="#F1EBEB"
+                android:textSize="24sp" />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/titlel_bg"
+            android:drawableRight="@drawable/shareicon1"
+            android:text="Share"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>

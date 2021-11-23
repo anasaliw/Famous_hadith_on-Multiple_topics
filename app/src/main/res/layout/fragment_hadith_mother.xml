@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#100F0F"
+    android:fillViewport="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/titlel_bg"
+            android:paddingTop="10dp"
+            android:text="Hadiths 1 On Mother"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/titlel_bg"
+            android:fillViewport="true"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:text="Narrated Al-Mughira: The Prophet said, Allah has forbidden you ( 1 ) to be undutiful to your mothers (2) to withhold (what you should give) or (3) demand (what you do not deserve), and (4) to bury your daughters alive. And Allah has disliked that (A) you talk too much about others ( B), ask too many questions (in religion), or (C) waste your property."
+                android:textAlignment="center"
+                android:textColor="#F1EBEB"
+                android:textSize="22sp" />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/titlel_bg"
+            android:drawableRight="@drawable/shareicon1"
+            android:text="Share"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/titlel_bg"
+            android:paddingTop="10dp"
+            android:text="Hadiths 2 On Mother"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/titlel_bg"
+            android:fillViewport="true"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:text="Mughira b. Shu'ba reported Allah's Messenger ( ‌صلی ‌اللہ ‌علیہ ‌وسلم ‌ ) as saying: Verity Allah, the Glorious and Majestic, has forbidden for you: disobedience to mothers, and burying alive daughters, withholding the right of others in spite of having the power to return that to them and demanding that (which is not one's legitimate right). And He disapproved three things for you; irrelevant talk, persistent questioning and wasting of wealth."
+                android:textAlignment="center"
+                android:textColor="#F1EBEB"
+                android:textSize="20sp" />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/titlel_bg"
+            android:drawableRight="@drawable/shareicon1"
+            android:text="Share"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/titlel_bg"
+            android:paddingTop="10dp"
+            android:text="Hadiths 3 On Mother"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="650dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/titlel_bg"
+            android:fillViewport="true"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="match_parent"
+                android:layout_height="650dp"
+                android:text="Anas b. Malik reported: I have never seen anyone more kind to one's family than Allah's Messenger ( ‌صلی ‌اللہ ‌علیہ ‌وسلم ‌ ), and Ibrahim was sent to the suburb of Medina for suckling. He used to go there and we accompanied him. He entered the house, and it was filled with smoke as his foster-father was a bricksmith. He took him (his son Ibrihim) and kissed him and then came back. 'Amr said that when Ibrihim died. Allah's LMessenger ( ‌صلی ‌اللہ ‌علیہ ‌وسلم ‌ ) said: Ibrihim is my son and he dies as a suckling babe. He has now two foster-mothers who would complete his suckling period in Paradise."
+                android:textAlignment="center"
+                android:textColor="#F1EBEB"
+                android:textSize="24sp" />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/titlel_bg"
+            android:drawableRight="@drawable/shareicon1"
+            android:text="Share"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+</ScrollView>
